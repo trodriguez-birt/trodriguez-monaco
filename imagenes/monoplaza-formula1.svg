@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 220" width="600" height="220" role="img" aria-label="Dibujo de un monoplaza de Fórmula 1">
+  <rect width="600" height="220" fill="#f3efe6"/>
+  <rect x="0" y="176" width="600" height="44" fill="#4a4a4a"/>
+  <rect x="0" y="196" width="600" height="4" fill="#f3efe6" opacity="0.6"/>
+  <path d="M60 150 L160 140 L230 112 L330 104 L400 118 L520 128 L540 150 L520 160 L80 160 Z" fill="#ce1126"/>
+  <path d="M280 104 Q310 70 345 104 Z" fill="#1b1b1b"/>
+  <rect x="520" y="96" width="50" height="8" fill="#1b1b1b"/>
+  <rect x="540" y="96" width="6" height="40" fill="#1b1b1b"/>
+  <rect x="40" y="132" width="46" height="8" fill="#1b1b1b"/>
+  <circle cx="160" cy="158" r="30" fill="#1b1b1b"/><circle cx="160" cy="158" r="13" fill="#bdbdbd"/>
+  <circle cx="450" cy="158" r="30" fill="#1b1b1b"/><circle cx="450" cy="158" r="13" fill="#bdbdbd"/>
+</svg>

@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" width="400" height="240" role="img" aria-label="Bandera de cuadros de final de carrera">
+  <defs><pattern id="c" width="80" height="80" patternUnits="userSpaceOnUse"><rect width="40" height="40" fill="#111"/><rect x="40" y="40" width="40" height="40" fill="#111"/><rect x="40" width="40" height="40" fill="#fff"/><rect y="40" width="40" height="40" fill="#fff"/></pattern></defs>
+  <rect width="400" height="240" fill="url(#c)" stroke="#111" stroke-width="4"/>
+</svg>

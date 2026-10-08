@@ -1,0 +1,87 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Palmarés y contacto | Gran Premio de Mónaco</title>
+    <link rel="stylesheet" href="estilos/estilos.css">
+</head>
+<body>
+    <header>
+        <h1>Gran Premio de Mónaco</h1>
+        <p>Fórmula 1 por las calles de Montecarlo</p>
+        <nav aria-label="Menú principal">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="circuito.html">El circuito</a></li>
+                <li><a href="palmares.html" class="activa">Palmarés y contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- PÁGINA DE PALMARÉS Y CONTACTO: ganadores recientes, récords y formulario de contacto con mailto -->
+        <section>
+            <h2>Ganadores recientes</h2>
+            <table>
+                <caption>Vencedores del Gran Premio de Mónaco, 2021-2025</caption>
+                <thead>
+                    <tr><th scope="col">Año</th><th scope="col">Piloto</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td>2021</td><td>Max Verstappen</td></tr>
+                    <tr><td>2022</td><td>Sergio Pérez</td></tr>
+                    <tr><td>2023</td><td>Max Verstappen</td></tr>
+                    <tr><td>2024</td><td>Charles Leclerc</td></tr>
+                    <tr><td>2025</td><td>Lando Norris</td></tr>
+                </tbody>
+            </table>
+            <figure>
+                <img src="imagenes/monaco-bandera-cuadros.svg" width="400" height="240" alt="Bandera de cuadros blancos y negros que marca el final de la carrera">
+                <figcaption>La bandera de cuadros (dibujo propio).</figcaption>
+            </figure>
+        </section>
+
+        <section>
+            <h2>Récords y curiosidades</h2>
+            <ul>
+                <li>Ayrton Senna es el piloto con más victorias en Mónaco: seis.</li>
+                <li>McLaren es el equipo más laureado en esta carrera.</li>
+                <li>Juan Manuel Fangio ganó la primera edición del Mundial, en 1950.</li>
+            </ul>
+            <p>Más estadísticas en <a href="https://es.wikipedia.org/wiki/Gran_Premio_de_M%C3%B3naco" target="_blank" rel="noopener">Wikipedia</a> y en <a href="https://www.formula1.com" target="_blank" rel="noopener">Formula1.com</a>.</p>
+        </section>
+
+        <section>
+            <h2>Contacto</h2>
+            <p>¿Quieres comentar algo sobre la carrera? Rellena el formulario y se abrirá tu programa de correo.</p>
+            <form action="mailto:trodriguez@ikaslea.birt.eus" method="post" enctype="text/plain">
+                <div class="campo">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+                <div class="campo">
+                    <label for="correo">Correo</label>
+                    <input type="email" id="correo" name="correo" required>
+                </div>
+                <div class="campo">
+                    <label for="piloto">Piloto favorito</label>
+                    <select id="piloto" name="piloto">
+                        <option value="Leclerc">Charles Leclerc</option>
+                        <option value="Norris">Lando Norris</option>
+                        <option value="Verstappen">Max Verstappen</option>
+                        <option value="Otro">Otro</option>
+                    </select>
+                </div>
+                <div class="campo">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje" name="mensaje" rows="4"></textarea>
+                </div>
+                <button type="submit">Enviar mensaje</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Sitio educativo sin ánimo de lucro. Dibujos propios en formato SVG. Datos contrastados en <a href="https://es.wikipedia.org/wiki/Gran_Premio_de_M%C3%B3naco" target="_blank" rel="noopener">Wikipedia</a>.</p>
+    </footer>
+</body>
+</html>
